@@ -37,8 +37,8 @@ ul
 
 nav
 {
-    background-color: #612c83
-    line-height 300%;
+    background-color: #334285;
+    line-height: 300%;
     display: block;
     font: size 2.5em;
 }
@@ -49,27 +49,27 @@ nav li
     padding-right: 40px;
     list-style-type: none;
     text-align: justify;
-    background-color: #612c83
-    margin top;
+    background-color: #334285;
+    margin-top: 4px;
 }
 
 nav a:link
 {
     color: #b33553;
     text-decoration: none;
-    background-color: #612c83
+    background-color: #334285;
 }
 
 nav a:visited
 {
-    color: #b33553 ;
-    background-color: #612c83
+    color: #b33553;
+    background-color: #334285;
 }
 
 nav a:hover
 {
     text-decoration: underline;
-    background-color: #612c83
+    background-color: #334285;
 }
 
 nav a:active
@@ -83,13 +83,21 @@ nav a:active
     width: 980px;
     height: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #292727;
+}
 
+#container2
+{
+    width: 980px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #612c83;
 }
 
 header
 {
 width: 920px;
+margin-left: 30px;
 }
 
 #Nav
@@ -101,16 +109,33 @@ aside
 {
 width: 400px;
 height: 600px;
-margin: 0 10px 10px 0;
+margin-top: 4px;
 float: left;
 }
 
 section
 {
+background-color:  #481e63;
 width: 400px;
 height: 600px;
 margin-bottom: 4px;
 float: right;
+}
+
+#aside2
+{
+background-color: #1a1818;
+width: 400px;
+height: 600px;
+margin: 0 10px 10px 0;
+}
+
+#section2
+{
+text-align: justify;
+width: 400px;
+height: 600px;
+
 }
 
 footer
