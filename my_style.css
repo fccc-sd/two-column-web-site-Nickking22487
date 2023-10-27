@@ -1,97 +1,87 @@
 *
 {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 body{
-    background-color: #1a1818;
-    color:grey;
-    font: size 1em;
+background-color: #1a1818;
+color:grey;
+font: size 1em;
 }
 
 h1{
-    color: #b33553 ;
-    background-color: #612c83;
-    text-align: center;
-    
-    font-style: italic;
+color: #b33553 ;
+background-color: #612c83;
+text-align: center;    
+font-style: italic;
 }
 h3{
-    color: #334285 ;
+color: #334285 ;
 }
 
 h1, h2, h3, h4{
-    font-family: Arial, Helvetica, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
     
 }
 
 #enfisisIsOntheGame {
-    Color: lightgray;
+Color: lightgray;
 }
 
 ul
 {
-    list-style-type: square;
+list-style-type: square;
 }
 
 nav
 {
-    background-color: #334285;
-    line-height: 300%;
-    display: block;
-    font: size 2.5em;
+background-color: #334285;
+line-height: 300%;
+display: block;
+font: size 2.5em;
 }
 
 nav li
 {
-    display: inline;
-    padding-right: 40px;
-    list-style-type: none;
-    text-align: justify;
-    background-color: #334285;
-    margin-top: 4px;
+display: inline;
+padding-right: 40px;
+list-style-type: none;
+text-align: justify;
+background-color: #334285;
+margin-top: 4px;
 }
 
 nav a:link
 {
-    color: #b33553;
-    text-decoration: none;
-    background-color: #334285;
+color: #b33553;
+text-decoration: none;
+background-color: #334285;
 }
 
 nav a:visited
 {
-    color: #b33553;
-    background-color: #334285;
+color: #b33553;
+background-color: #334285;
 }
 
 nav a:hover
 {
-    text-decoration: underline;
-    background-color: #334285;
+text-decoration: underline;
+background-color: #334285;
 }
 
 nav a:active
 {
-    color: #ffff00;
-    text-decoration: none;
+color: #ffff00;
+text-decoration: none;
 }
 
 #container
 {
-    width: 980px;
-    height: 1000px;
-    margin: 0 auto;
-    background-color: #292727;
-}
-
-#container2
-{
-    width: 980px;
-    height: 1000px;
-    margin: 0 auto;
-    background-color: #612c83;
+width: 980px;
+margin: 0 auto;
+background-color: #292727;
 }
 
 header
@@ -102,12 +92,12 @@ margin-left: 30px;
 
 #Nav
 {
-margin-top: 4px;
+margin: 4px 0 10px 0;
 }
 
 aside
 {
-width: 400px;
+width: 280px;
 height: 600px;
 margin-top: 4px;
 float: left;
@@ -116,8 +106,7 @@ padding: 10px;
 
 section
 {
-background-color:  #481e63;
-width: 400px;
+width: 560px;
 height: 600px;
 margin-bottom: 4px;
 float: right;
