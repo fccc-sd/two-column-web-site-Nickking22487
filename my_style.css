@@ -31,7 +31,7 @@ Color: lightgray;
 
 ul
 {
-list-style-type: square;
+list-style-type: none;
 }
 
 nav
@@ -40,6 +40,7 @@ background-color: #334285;
 line-height: 300%;
 display: block;
 font: size 2.5em;
+margin: 4px 0 10px 0;
 }
 
 nav li
@@ -90,11 +91,6 @@ width: 920px;
 margin-left: 30px;
 }
 
-#Nav
-{
-margin: 4px 0 10px 0;
-}
-
 aside
 {
 width: 280px;
@@ -128,7 +124,6 @@ text-align: justify;
 width: 400px;
 height: 600px;
 padding: 10px;
-
 }
 
 footer
