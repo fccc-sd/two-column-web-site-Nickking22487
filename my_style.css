@@ -111,6 +111,7 @@ width: 400px;
 height: 600px;
 margin-top: 4px;
 float: left;
+padding: 10px;
 }
 
 section
@@ -120,6 +121,7 @@ width: 400px;
 height: 600px;
 margin-bottom: 4px;
 float: right;
+padding: 10px;
 }
 
 #aside2
@@ -128,6 +130,7 @@ background-color: #1a1818;
 width: 400px;
 height: 600px;
 margin: 0 10px 10px 0;
+padding: 10px;
 }
 
 #section2
@@ -135,10 +138,14 @@ margin: 0 10px 10px 0;
 text-align: justify;
 width: 400px;
 height: 600px;
+padding: 10px;
 
 }
 
 footer
 {
 clear: both;
+color: #b33553;
+background-color: #334285;
 }
+
