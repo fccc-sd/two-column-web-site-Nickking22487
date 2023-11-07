@@ -41,6 +41,7 @@ line-height: 300%;
 display: block;
 font: size 2.5em;
 margin: 4px 0 10px 0;
+padding: 6;
 }
 
 nav li
@@ -51,6 +52,7 @@ list-style-type: none;
 text-align: justify;
 background-color: #334285;
 margin-top: 4px;
+padding: 6;
 }
 
 nav a:link
@@ -58,24 +60,28 @@ nav a:link
 color: #b33553;
 text-decoration: none;
 background-color: #334285;
+padding: 6;
 }
 
 nav a:visited
 {
 color: #b33553;
 background-color: #334285;
+padding: 6;
 }
 
 nav a:hover
 {
 text-decoration: underline;
 background-color: #334285;
+padding: 6;
 }
 
 nav a:active
 {
 color: #ffff00;
 text-decoration: none;
+padding: 6;
 }
 
 #container
