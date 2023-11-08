@@ -16,6 +16,11 @@ background-color: #612c83;
 text-align: center;    
 font-style: italic;
 }
+img
+{
+float: left;
+margin: 10px;
+}
 h3{
 color: #334285 ;
 }
