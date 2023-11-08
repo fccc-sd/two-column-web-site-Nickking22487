@@ -129,6 +129,15 @@ margin: 0 10px 10px 0;
 padding: 10px;
 }
 
+#aside3
+{
+background-color: #1a1818;
+width: 400px;
+height: 600px;
+margin: 0 10px 10px 0;
+padding: 10px;
+}
+
 #section2
 {
 text-align: justify;
@@ -142,5 +151,7 @@ footer
 clear: both;
 color: #b33553;
 background-color: #334285;
+padding: 5px;
+margin: 10px;
 }
 
