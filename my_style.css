@@ -124,7 +124,6 @@ border:solid thin white;
 #aside
 {
 width: 440px;
-height: 600px;
 margin-top: 4px;
 padding: 10px;
 float: left;
@@ -133,7 +132,6 @@ float: left;
 #aside2
 {
 width: 440px;
-height: 600px;
 margin-top: 4px;
 padding: 10px;
 float: right;
@@ -152,7 +150,7 @@ footer
 clear: both;
 color: #b33553;
 background-color: #334285;
-padding: 5px;
+padding: 14px;
 margin: 4px 4px 10px 4px;
 }
 
