@@ -43,6 +43,24 @@ ul
 list-style-type: none;
 }
 
+table{
+    border:solid 2px black
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border:solid 2px black 
+    padding: 5px;
+    width: 200px;
+    text-align: left;
+    vertical-align: top:
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+}
+
 nav
 {
 
