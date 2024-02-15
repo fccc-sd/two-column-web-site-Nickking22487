@@ -27,17 +27,71 @@
                 </ul>
             </nav>
 
-      <form id="email_form" action="my_app.php" method="post">
-        <p>Please enter your email address to subscribe.</p>
-        <p>Email: <Input type="text" name="email" id="email"></Input></p>
-        <p><Input> id="submit" type="submit" value="Subscribe"</Input></p>
-        <p><Input:reset> type="reset" id="resetform" value"Reset</Input:reset></p>
-        <p><Input> type="button" id="message" value="Alert Me"</Input></p>
+      <form id="Order_form" action="my_app.php" method="post">
+        <aside>
+            <P>Please enter your name for pickups.</P>
+            <input type="text" name="name" id="name" autofocus>
+            <br>
+            <P>Please enter your address for delivery.</P>
+            <input type="text" name="address" id="address" autofocus>
+            <br>
+            <p>Please enter your phonenumber for pickup and/or coupons.</p>
+            <input type="text" name="phonenumber" id="phonenumber" autofocus>
+            <br>
+            <br>
+        <fieldset>
+            <input type="radio" name="size" id="small">
+            <label for="size">Size Small</label>
+            <br>
+            <input type="radio" name="size" id="medium">
+            <label for="size">Size Meduim</label>
+            <br>
+            <input type="radio" name="size" id="large">
+            <label for="size">Size Large</label>
+            
+        </fieldset>
+    
+    </aside>
 
-      </form>
+    <section>
+        <p>Leave a note to the chef here.</p>
+        <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+        <br>
+        <br>
+        <fieldset>
+            <input type="checkbox" name="ex_cheese" id="ex_cheese">
+            <label for="ex_cheese">Extra Cheese</label>
+            <br>
+            <input type="checkbox" name="ex_sause" id="ex_sause">
+            <label for="ex_sause">Extra Sause</label>
+            <br>
+            <input type="checkbox" name="pepperonie" id="pepperonie">
+            <label for="pepperonie">Pepperonies</label>
+            <br>
+            <input type="checkbox" name="sausage" id="sausage">
+            <label for="sausage">Sausages</label>
+            <br>
+            <input type="checkbox" name="green_peppers" id="green_peppers">
+            <label for="green_peppers">Green Peppers</label>
+            <br>
+            <input type="checkbox" name="onion" id="onion">
+            <label for="onion">Onions</label>
+            <br>
+      
+        </fieldset>
 
-
-
+       </form>
+    </section>
+    <br>
+    <input type="submit" value="Submit Order" id="submit">
+    <br>
+    <input type="reset" value="Reset" id="resetform">
+    <footer>
+    <h6>Copyright: &copy; 2023 Nick King</h6>
+    
+    <a href="https://mrgeiger.com/"><strong>Mr.Geiger</strong></a> 
+    <a href="https://www.youtube.com/"><strong>YouTube</strong></a>
+    </footer>
 
       </div>
 </body>
