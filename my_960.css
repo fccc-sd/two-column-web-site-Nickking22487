@@ -19,15 +19,15 @@ padding-top: 16px;
 
 aside
 {
-    height: 500px;
-    background-color: #334285;
+    height: auto;
+    background-color: #612c83;
     padding-bottom: 8px;
 }
 
 section
 {
-    height: 500px;
-    background-color: #334285;
+    height: auto;
+    background-color: #612c83;
     padding-bottom: 8px;
 }
 
